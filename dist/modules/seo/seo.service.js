@@ -336,7 +336,7 @@ class SeoService {
                         '--disable-dev-shm-usage',
                     ],
                     // <-- tell chrome-launcher where to find chromium
-                    chromePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium',
+                    // chromePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium',
                 });
                 options = {
                     logLevel: 'verbose',
